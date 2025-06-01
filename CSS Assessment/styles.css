@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: darkorchid;
+  color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: green;
+}
+
+
+main {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+main .cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .cardContainer .card {
+  width: 200px;
+  padding: 10px;
+  background: aquamarine;
+  border-radius: 8px;
+  box-shadow: 0 0px 40px aquamarine;
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+main .cardContainer .card:hover {
+  transform: scale(1.05);
+}
+
+main .cardContainer .card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+main .cardContainer .card .cardContent {
+  padding: 10px;
+  text-align: left;
+  color: grey;
+}
+
+main .cardContainer .card .cardContent .cardDate {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+main .cardContainer .card .cardContent .cardTitle {
+  font-size: 1.2rem;
+}
+
+main .cardContainer .card .cardContent .cardDescription {
+  font-size: 0.8rem;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+main .cardContainer .card .cardContent .cardButton {
+  background-color: lightcoral;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+main .cardContainer .card .cardContent .cardButton:hover {
+  background-color: red;
+}
+
+footer {
+  background-color: lightcoral;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+

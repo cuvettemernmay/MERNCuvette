@@ -1,0 +1,163 @@
+/* * {
+  color: tomato;
+  text-decoration: underline;
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+h6 {
+  margin: 30px;
+  color: blue;
+}
+
+.smallHeading {
+  color: green;
+}
+
+#headingSpecial {
+  color: red;
+}
+
+h1, h6, p {
+  background-color: green;
+  border: 1px solid red;
+}
+
+h2 {
+  border: 10px dotted blue;
+} */
+
+div p {
+  background-color: red;
+}
+
+section  article div h3{
+  background-color: green;
+  color: tomato;
+}
+
+div {
+  width: 100px;
+  border: 1px solid red;
+  margin: 10px;
+}
+
+section > div {
+  background-color: lawngreen
+}
+
+/* .smallHeading + h6 {
+  font-size: 100px;
+  color: aqua;
+  background-color: yellow;
+} */
+
+.smallHeading ~ h6 {
+  font-size: 100px;
+  color: aqua;
+  background-color: yellow;
+}
+
+[id="headingSpecial"] {
+  color: pink
+}
+
+[target="_blank"] {
+  color: red;
+  background-color: lawngreen;
+}
+
+/* pseudo classes */
+
+button {
+  background-color: red;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 50px
+}
+
+button:hover {
+  background-color: blue;
+  color: pink;
+}
+
+input {
+  color: red;
+  background-color: lawngreen;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+input:focus {
+  background-color: blue;
+  color: grey;
+}
+
+/* button:hover {
+  background-color: red;
+  color: white;
+} */
+
+/* ol li {
+  color: red;
+} */
+
+#special {
+  color: red;
+}
+
+/* ol li:nth-child(3) {
+  color: red;
+} */
+
+
+ol li:first-child {
+  color: red;
+}
+
+ol li:last-child {
+  color: blue;
+}
+
+.specialParagraph::first-letter {
+  color: green;
+  font-size: 50px;
+}
+
+.specialParagraph::first-line {
+  color: red;
+  font-size: 50px;
+}
+
+.specialParagraph::selection {
+  color: red;
+  background-color: lawngreen;
+}
+
+.specialParagraph::before {
+  content: "😇 ";
+}
+
+.specialParagraph::after {
+  content: " 😺";
+}
+
+
+
+
+
+
+
+
+
+
+
