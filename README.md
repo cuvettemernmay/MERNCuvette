@@ -56,8 +56,9 @@ Box Model Properties:
 3. Padding
 4. Content
 
+<!-- HTML Forms: -->
 
-
+HTML Forms are used to collect user input. The user input is most often sent to a server for processing.
 
 
 
