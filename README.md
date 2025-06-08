@@ -60,9 +60,32 @@ Box Model Properties:
 
 HTML Forms are used to collect user input. The user input is most often sent to a server for processing.
 
+HTML Forms are a collection of input elements.
 
 
+<!-- CSS Positions -->
 
+CSS Positions are used to position the elements on the web page.
+
+CSS Positions are of 5 types:
+1. Static
+2. Relative
+3. Absolute
+4. Fixed
+5. Sticky
+
+Relative:
+0. When position property is given as relative, the element is positioned relative to its normal position.
+1. Reference of Relative - Static Element Position Edges. 
+2. Will not allow the element to overlap other elements.
+
+Absolute:
+0. When position property is given as absolute, the element is start floating from the position of the parent element.
+1. Reference of Absolute - Parent element (must have position property as relative).
+
+Fixed:
+0. When position property is given as fixed, the element is positioned relative to the viewport.
+1. Reference of Fixed - Viewport.
 
 
 
