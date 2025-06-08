@@ -88,5 +88,19 @@ Fixed:
 1. Reference of Fixed - Viewport.
 
 
+<!-- How to make web page reponsiveness? -->
+
+1. Flexible Layouts - Units - %, vh, vw.
+2. Media Queries.
+3. Responsive Units - em, rem, auto, %
+4. Flexbox/Grid System.
+
+
+Media Screens Breakpoints:- (Mobile > Tablets > Laptop)
+
+360px < 375px < 420px < 520px < 600px < 768px < 991px < 1024px
+1260px < 1366px < 1440px < 1620px < 1920px
+
+
 
 
