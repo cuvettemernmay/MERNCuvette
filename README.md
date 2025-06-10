@@ -102,5 +102,12 @@ Media Screens Breakpoints:- (Mobile > Tablets > Laptop)
 1260px < 1366px < 1440px < 1620px < 1920px
 
 
+<!-- Introduction to JavaScript (JS) -->
+
+1. Frontend Programming Language.
+2. Features - Events, APIs, DOM Manipulation, Backend, etc.
+3. JavaScript Statements - Scripts.
+4. Syntax.
+
 
 
