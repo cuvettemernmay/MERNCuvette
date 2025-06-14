@@ -142,12 +142,117 @@ var variable1 = 10;
 var variable2 = 20;
 
 function example() {
-  console.log(variable1);
-  var variable1 = 30;
+  // var variable1 = 30;
+  // console.log(variable1);
 }
 
-example;
-console.log(example);
+example()
+// console.log(variable1);
+
+
+
+// Difference between var, let and const
+// these reserved keywords are used to declare variables
+
+// 1. Scope - Global, Function, Block
+
+function testScope() {
+  if (true) {
+    var a1 = 10;
+    let b2 = 20;
+    const c3 = 30;
+  }
+  // console.log(b2);
+  // console.log(c3);
+}
+// console.log(a1);
+
+// testScope();
+
+
+// 1. Redeclaration
+
+// var x = 10;
+// var x = 20;
+
+// let y = 10;
+// let y = 20;
+
+// const z = 10;
+// const z = 20;
+
+// 3. Reassignment
+
+var xyz = 10;
+xyz = 20;
+// console.log(xyz);
+
+let abc = 10;
+abc = 20;
+// console.log(abc);
+
+const pqr = 10;
+// console.log(pqr);
+
+// 4. Hoisting = > betweeen declaration and initialization - Temporal Dead Zone
+
+// console.log(x);
+const x = 10;
+
+// 5. const with objects and arrays (mutation allowed)
+
+const person = {
+  name: "John",
+  age: 20,
+};
+
+// person = {};
+
+console.log(person);
+person.name = "Jane";
+person.age = "342"
+person.profession = "Developer";
+console.log(person);
+
+
+// Control Statements
+// 1. if
+// 2. else if
+// 3. else
+
+// let age = 18;
+
+// if (age >= 18) {
+//   console.log("You are an adult");
+// }
+
+let isRaining = true;
+
+if (isRaining) {
+  console.log("It is raining");
+} else {
+  console.log("It is not raining");
+}
+
+let score = 80;
+let isIndian = true;
+if (score >= 90 && isIndian) {
+  console.log("You are a topper");
+} else if (score >= 80) {
+  console.log("You are a good student");
+} else {
+  console.log("You are a average student");
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
