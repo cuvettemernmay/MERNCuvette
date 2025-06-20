@@ -68,6 +68,7 @@ document.addEventListener("keydown", clickMe)
 let link = document.querySelector("a")
 link.setAttribute("href", "https://www.google.com/")
 link.setAttribute("id", "anchorId")
+// console.log(link.getAttribute("href"))
 
 
 // creation of Element
@@ -82,4 +83,31 @@ document.body.appendChild(newHeading2)
 
 // let myContainer = document.querySelector(".container")
 // myContainer.remove()
+
+// console.log(document.documentElement)
+// console.log(document.body)
+// console.log(document.body.firstElementChild)
+
+let main = document.getElementById("main")
+main.style.backgroundColor = "purple"
+main.style.border = "25px solid red"
+main.style.padding = "10px"
+
+
+// Traversing the DOM
+let mainContainer = document.querySelector("#main")
+// console.log(mainContainer)
+// console.log(mainContainer.parentElement)
+// console.log(mainContainer.children)
+// console.log(mainContainer.previousElementSibling)
+// console.log(mainContainer.nextElementSibling)
+
+
+document.addEventListener("click", function(e) {
+  console.log(e)
+  console.log("X:", e.clientX, "Y:", e.clientY)
+  console.log("Target:", e.target)
+}) 
+
+
 
